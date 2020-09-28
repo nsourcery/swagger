@@ -30,6 +30,7 @@
     "dependencies": {
         "@nestjs/mapped-types": "0.1.0",
         "@nestjs/swagger": "^4.6.1",
+        "@nsourcery/common": "0.0.4",
         "@nsourcery/env": "0.0.6"
     },
     "devDependencies": {
