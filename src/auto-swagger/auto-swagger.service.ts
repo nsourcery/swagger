@@ -14,7 +14,7 @@ export class AutoSwaggerService {
       .setDescription(
         env.get(
           `${prefix}_DESCRIPTION` ||
-            'This is a sample API used, use it as you like.',
+            'This is a sample API, use it as you like.',
         ),
       )
       .setVersion(env.get(`${prefix}_VERSION`) || 'v1')
