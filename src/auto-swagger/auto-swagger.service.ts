@@ -9,16 +9,14 @@ export class AutoSwaggerService {
     const options = new DocumentBuilder()
       .setTitle(this.env.get(`${prefix}_TITLE`) || 'Sample API')
       .setDescription(
-        this.env.get(
-          `${prefix}_DESCRIPTION` ||
-            'This is a sample API, use it as you like.',
-        ),
+        this.env.get(`${prefix}_DESCRIPTION`) ||
+          'This is a sample API, use it as you like.',
       )
       .setVersion(this.env.get(`${prefix}_VERSION`) || 'v1')
       .build();
     const docs = SwaggerModule.createDocument(app, options);
     SwaggerModule.setup(
-      this.env.get(`${prefix}_DOCS` || 'api-docs'),
+      this.env.get(`${prefix}_DOCS`) || 'api-docs',
       app,
       docs,
     );
