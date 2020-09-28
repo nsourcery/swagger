@@ -1,10 +1,10 @@
 {
-    "name": "@nsourcery/starter-lib",
+    "name": "@nsourcery/swagger",
     "version": "0.0.0",
     "description": "Template project for nsourcery libs",
     "author": "Getúlio Magela Silva",
     "license": "MIT",
-    "repository": "https://github.com/nsourcery/starter-lib",
+    "repository": "https://github.com/nsourcery/swagger",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
     },
