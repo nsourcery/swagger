@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/nsourcery/swagger/compare/v0.0.2...v0.0.3) (2020-09-28)
+
+
+### Bug Fixes
+
+* default api swagger config ([a501f92](https://github.com/nsourcery/swagger/commit/a501f9276798d6275715415e1253e7205cc112d1))
+
 ### [0.0.2](https://github.com/nsourcery/swagger/compare/v0.0.1...v0.0.2) (2020-09-28)
 
 
