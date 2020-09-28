@@ -28,7 +28,9 @@
         "postreset": "npm i --save-dev husky"
     },
     "dependencies": {
-        "@nestjs/mapped-types": "0.1.0"
+        "@nestjs/mapped-types": "0.1.0",
+        "@nestjs/swagger": "^4.6.1",
+        "@nsourcery/env": "0.0.6"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",
@@ -37,9 +39,7 @@
         "@nestjs/core": "7.4.4",
         "@nestjs/platform-express": "7.4.4",
         "@nestjs/platform-fastify": "7.4.4",
-        "@nestjs/swagger": "^4.6.1",
         "@nestjs/testing": "^7.4.4",
-        "@nsourcery/env": "0.0.6",
         "@types/jest": "^26.0.14",
         "@types/lodash": "4.14.161",
         "@types/node": "^11.15.0",
