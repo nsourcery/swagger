@@ -1,2 +1,2 @@
-export * from './sourcery/sourcery.module';
-export * from './sourcery/sourcery.service';
+export * from './auto-swagger/auto-swagger.module';
+export * from './auto-swagger/auto-swagger.service';
